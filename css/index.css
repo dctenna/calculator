@@ -1,0 +1,109 @@
+h1, h2 {
+    text-align: center;
+}
+
+.calc {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #111;
+    border-radius: 5px;
+}
+
+.displ {
+    max-width: 396px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.buttons {
+    border: 1px solid #111;
+    padding: 20px;
+    color: #EEE;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+    grid-template-areas: 
+    "seven eight nine divide r " 
+    "four five six multiply c" 
+    "one two three subtract e " 
+    "o o d add e ";
+}
+
+.clear-resent {
+    grid-area: r;
+}
+
+.clear {
+    grid-area: c;
+}
+
+.decimal {
+    grid-area: d;
+}
+
+.eval {
+    grid-area: e;
+}
+
+.zero {
+    grid-area: o;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.add {
+    grid-area: add;
+}
+
+.subtract {
+    grid-area: subtract;
+}
+
+.multiply {
+    grid-area:multiply;
+}
+
+.divide {
+    grid-area: divide;
+}
